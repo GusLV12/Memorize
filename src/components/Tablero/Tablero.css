@@ -5,10 +5,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100vh; /* Altura completa de la ventana */
+    height: 80vh;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 70px auto;
     padding: 20px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .board {
@@ -16,25 +19,26 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     width: 100%;
+    align-content: center;
+    align-items: center;
 }
 
 .button-container {
     display: flex;
-    justify-content: center; /* Centra el botón horizontalmente */
+    justify-content: center;
     width: 100%;
+    margin: 2rem;
 }
 
 .button {
-    background-color: #a8e6cf; /* Verde claro */
+    background-color: #a8e6cf;
     border: none; 
     color: #333; 
     padding: 15px 32px;
-    text-align: center; 
     text-decoration: none; 
-    display: inline-block; 
+    display: flex; 
     font-size: 10px; 
     font-family: 'Press Start 2P', cursive;
-    margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px; 
     transition: background-color 0.3s ease; 
